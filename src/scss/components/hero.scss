@@ -1,25 +1,27 @@
 .hero-section {
+  background: #d6f0ff;
+
   @include media(desktop) {
   }
 }
 
 .hero-bg-wrapper {
-  padding-top: 112px;
-  padding-bottom: 64px;
+  padding-top: 80px;
+  padding-bottom: 76px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat;
-  background-position: bottom 176px center;
+  background-position: bottom center;
   background-size: auto;
 
   @include media(desktop) {
-    padding-top: 112px;
-    padding-bottom: 160px;
+    padding-top: 486px;
+    padding-bottom: 120px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
-    background-position: bottom 0 center;
+    background-position: top center;
   }
 }
 
@@ -38,42 +40,21 @@
   }
 }
 
-.hero-subtitle {
-  font-family: 'Cinzel', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #d7d8e4;
-  max-width: 296px;
+.hero-title-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
+  margin-bottom: 400px;
 
   @include media(desktop) {
-    font-size: 24px;
-    max-width: max-content;
-  }
-}
-
-.hero-main-title {
-  font-family: 'Cinzel', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: #d7d8e4;
-  margin-bottom: 356px;
-
-  @include media(desktop) {
-    font-size: 48px;
-    margin-bottom: 342px;
+    margin-bottom: 48px;
   }
 }
 
 .hero-btn {
-  box-shadow: 2px 2px 1px 0 rgba(90, 45, 9, 0.5);
-  background: #d7d8e4;
-  border: 1px solid #242847;
-  border-radius: 8px;
+  box-shadow: 2px 2px 2px 0 rgba(58, 93, 149, 0.4);
+  background: #6123e6;
+  border: 1px solid #3a5d95;
+  border-radius: 16px;
   padding: 13px 35px;
   display: flex;
   justify-content: center;
@@ -86,7 +67,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: linear-gradient(180deg, #d7d8e4 0%, #9697bf 100%);
+    background: linear-gradient(180deg, #6123e6 0%, #3a5d95 100%);
   }
 
   @include media(desktop) {

@@ -3,17 +3,30 @@
     <div class="container hero-container">
       <div class="hero-content-wrapper">
         <div class="hero-text-wrapper">
-          <p class="hero-subtitle">
-            Ancient guardians protect the secrets within.
-          </p>
-          <h1 class="hero-main-title">Enter the Tomb. Face the Spirits.</h1>
+          <picture>
+            <source
+              srcset="./img/hero/hero-title-desk.png"
+              media="(min-width: 1440px)"
+              width="812"
+              height="174" />
+            <source
+              srcset="./img/hero/hero-title-mob.png"
+              width="343"
+              height="196" />
+            <img
+              class="hero-title-img"
+              src="./img/hero/hero-title-mob.png"
+              alt="Screenshot of the game"
+              width="343"
+              height="196"
+          /></picture>
           <a
             class="hero-btn"
             target="_blank"
-            href="https://play.google.com/store/apps/details?id=net.ifeps.korogame1&hl=en&gl=us"
+            href="https://play.google.com/store/apps/details?id=com.renderedideas.bubbleshooter&hl=en&gl=us"
             rel="noopener noreferrer"
             aria-label="Download on Google Play"
-            ><svg class="playstore-icon" width="167" height="36">
+            ><svg class="playstore-icon" width="209" height="45">
               <use href="./img/sprite.svg#icon-playstore"></use></svg
           ></a>
         </div>
