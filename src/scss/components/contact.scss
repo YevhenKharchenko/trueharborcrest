@@ -1,0 +1,100 @@
+.contact-section {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/contact/contact-left-bg-desk.png);
+  background-repeat: no-repeat;
+  background-position: bottom 56px center;
+  background-size: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    background-image:
+      url(../img/contact/contact-left-bg-desk.png),
+      url(../img/contact/contact-right-bg-desk.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+      center left 223px,
+      center right 223px;
+    background-size: auto, auto;
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 40px;
+  padding-bottom: 304px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 48px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+}
+
+.contact-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.contact-title {
+  @include media(desktop) {
+  }
+}
+
+.contact-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.contact-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.contact-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d7d8e4;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.contact-email-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d7d8e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.email-icon {
+  min-width: 16px;
+
+  @include media(desktop) {
+  }
+}

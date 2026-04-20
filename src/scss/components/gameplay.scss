@@ -1,0 +1,152 @@
+.gameplay-section {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    background-image: url(../img/gameplay/gameplay-bg-desk.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+  }
+}
+
+.gameplay-bg-wrapper {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 48px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.gameplay-container {
+}
+
+.gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #d7d8e4;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    margin-bottom: 54px;
+  }
+}
+
+.gameplay-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-top-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 64px;
+  }
+}
+
+.gameplay-bottom-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+}
+
+.gameplay-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    min-width: 360px;
+    margin: 0;
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    gap: 32px;
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+.gameplay-list-item {
+  border-bottom: 1px solid #242847;
+  padding: 8px 8px 7px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @include media(desktop) {
+    gap: 16px;
+  }
+}
+
+.gameplay-item-number {
+  background: #242847;
+  border-radius: 8px;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #d7d8e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 46px;
+  width: 46px;
+  height: 46px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    min-width: 52px;
+    width: 52px;
+    height: 52px;
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d7d8e4;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
