@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://quietcrest.online/sitemap.xml
+Sitemap: https://trueharborcrest.site/sitemap.xml

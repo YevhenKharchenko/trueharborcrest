@@ -1,5 +1,5 @@
 .policy-section {
-  background: #101119;
+  background: #f0f9fe;
   padding-top: 104px;
   padding-bottom: 40px;
 
@@ -10,18 +10,17 @@
 }
 
 .policy-main-title {
-  font-family: 'Cinzel', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  color: #9697bf;
+  color: #324b74;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 32px;
+    font-size: 64px;
     margin-bottom: 48px;
   }
 }
@@ -30,8 +29,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.5;
-  color: #d7d8e4;
+  line-height: 1.4;
+  color: #202e44;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -42,8 +41,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5;
-  color: #d7d8e4;
+  line-height: 1.4;
+  color: #202e44;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -62,8 +61,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5;
-  color: #d7d8e4;
+  line-height: 1.4;
+  color: #202e44;
   margin-bottom: 8px;
 
   &:last-child {

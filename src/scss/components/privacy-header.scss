@@ -1,5 +1,5 @@
 .privacy-header {
-  background: #101119;
+  background: #f0f9fe;
   padding-top: 12px;
   padding-bottom: 12px;
   position: fixed;
@@ -15,12 +15,12 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 300;
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
-  color: #9697bf;
+  color: #324b74;
   max-width: max-content;
 
   @include media(desktop) {
@@ -28,6 +28,6 @@
 }
 
 .arrow-back-icon {
-  stroke: #9697bf;
+  stroke: #324b74;
   fill: none;
 }

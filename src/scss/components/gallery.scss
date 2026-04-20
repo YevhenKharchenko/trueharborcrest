@@ -4,7 +4,7 @@
 }
 
 .gallery-bg-wrapper {
-  padding-top: 40px;
+  padding-top: 48px;
   padding-bottom: 64px;
   max-width: 375px;
   margin-left: auto;
@@ -13,7 +13,7 @@
   position: relative;
 
   @include media(desktop) {
-    padding-top: 48px;
+    padding-top: 52px;
     padding-bottom: 80px;
     max-width: 1440px;
   }
@@ -28,7 +28,7 @@
 }
 
 .gallery-swiper-container {
-  max-width: 293px;
+  max-width: 303px;
   margin-left: auto;
   margin-right: auto;
 
@@ -47,9 +47,10 @@
 }
 
 .gallery-slide {
-  max-width: 293px;
+  max-width: 303px;
 
   @include media(desktop) {
+    max-width: 711px;
   }
 }
 
@@ -69,7 +70,7 @@
     max-width: 1200px;
     gap: 18px;
     position: absolute;
-    top: 316px;
+    top: 220px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;

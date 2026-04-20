@@ -1,7 +1,22 @@
 .faq-section {
-  background: #c3baac;
+  background: linear-gradient(180deg, #d2effc 0%, #b4e4fa 100%);
 
   @include media(desktop) {
+  }
+}
+
+.faq-section-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/faq/faq-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    background-image: url(../img/faq/faq-bg-desk.png);
   }
 }
 
@@ -11,11 +26,10 @@
 }
 
 .faq-bg-wrapper {
-  padding-top: 40px;
+  padding-top: 48px;
   padding-bottom: 64px;
 
   @include media(desktop) {
-    padding-top: 64px;
     padding-bottom: 80px;
   }
 }
@@ -43,14 +57,14 @@
   width: 100%;
 
   @include media(desktop) {
-    max-width: 994px;
+    max-width: 1062px;
   }
 }
 
 .faq-item-question-wrapper {
-  border-bottom: 1px solid #7c715d;
+  border-bottom: 2px solid #6f95bc;
   padding-top: 8px;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
 
   @include media(desktop) {
   }
@@ -94,25 +108,23 @@
 .faq-btn-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
-  color: #302d29;
+  color: #324b74;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 24px;
   }
 }
 
 .faq-bottom-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #302d29;
+  color: #15202c;
 
   @include media(desktop) {
-    font-size: 16px;
   }
 }
 
